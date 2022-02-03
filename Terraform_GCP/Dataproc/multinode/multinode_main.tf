@@ -1,11 +1,11 @@
 provider "google" {
   project     = "orbital-ability-340123"
   #project     = "postgresql-276510"
-  region      = "us-central1"
+  region      = "us-east4"
 }
 resource "google_dataproc_cluster" "cluster-2" {
   name     = "dataproc-multinode"
-  region      = "us-central1"
+  region      = "us-east4"
   #labels = {
   #  cluster = "one-master-two-worker"
  # }
